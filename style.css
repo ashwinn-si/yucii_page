@@ -17,6 +17,11 @@
     text-align: center;
     font-size: 1.2rem;
     margin:5px 0;
+    background: url('joewinograd.gif') no-repeat;
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 .main{
     display: flex;
@@ -57,6 +62,7 @@
     padding-top: 8px;
     position: relative;
     border-radius: 50px;
+    transition: all 0.2s;
 }
 .links a{
     color: white;
@@ -93,6 +99,9 @@
 .join_us{
     background-color: rgb(37, 211, 102);
     margin-bottom: 40px;
+}
+.links:hover{
+    transform: scale(1.1);
 }
 @media (max-width: 768px) {
     .main {

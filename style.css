@@ -99,13 +99,14 @@
     background-color: rgb(37, 211, 102);
     margin-bottom: 40px;
 }
-.links:hover{
-    transform: scale(1.1);
-}
+
 @media (min-width:1200px) {
     .content{
         background-image: url("bg.gif");
         background-position: center;
+    }
+    .links:hover{
+        transform: scale(1.1);
     }
 }
 @media (max-width: 768px) {

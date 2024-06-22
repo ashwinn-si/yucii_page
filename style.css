@@ -31,8 +31,7 @@
    
 }
 .content{
-    background-image: url("bg.gif");
-    background-position: center;
+    
     width: 100%; 
     max-width: 600px; 
     background-color: black;
@@ -103,12 +102,21 @@
 .links:hover{
     transform: scale(1.1);
 }
+@media (min-width:1200px) {
+    .content{
+        background-image: url("bg.gif");
+        background-position: center;
+    }
+}
 @media (max-width: 768px) {
     .main {
+        background-image: url("bg.gif");
+        background-position: center;
         flex-direction: column;
     }
     
     .content {
+        background: transparent;
         max-width: 100%; /* Full width for smaller screens */
     }
     
